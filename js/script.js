@@ -12,12 +12,10 @@ $(document).ready(function() {
      
      	if (useVid.matches) {
 	 	    $("#feat-img").html(
-	 	    '<video id="feat-vid" poster="img/bg-movie_katie-pat.jpg" autoplay loop>' +
+	 	    '<video id="feat-vid" poster="img/spacer.gif" autoplay loop>' +
 	 	    '<source src="img/bg-movie_katie-pat.mp4" type="video/mp4">' +
-	 	    '<source src="img/bg-movie_katie-pat.ogv" type="video/ogg"></video'
+	 	    '<source src="img/bg-movie_katie-pat.ogv" type="video/ogg"></video>'
 	 	    );
-     	} else {
-	     	$("feat-img").css('display','none');
      	}
      	
      
@@ -51,13 +49,13 @@ $(document).ready(function() {
 
 $('.medium').height($('.large').width()/2);
 $('.small').height(($('.large').width()/2));
-$('.large').css('max-height',$('.large').height());
+//$('.large').css('max-height',$('.large').height());
 
 	
 	$(window).on('resize', function() {
 		$('.medium').height($('.large').width()/2);
 		$('.small').height($('.large').width()/2);
-		$('.large').css('max-height',$('.large').height());
+		//$('.large').css('max-height',$('.large').height());
 	});
 
 });
