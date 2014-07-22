@@ -1,0 +1,10 @@
+/* IE8 and Down Stylesheet */
+
+#hero #feat-img {
+	background-color: #fff;
+	background-position: center bottom;
+	background: none;
+}
+#hero #main-nav {
+	background-color: #e1e1e1;
+}

@@ -26,19 +26,15 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},'slow');
 	 });
-      
-	/*
-window.onscroll = function(event) {
-		$("#feat-img").css('position','fixed');	
-	}
-*/	
+     
 		/* - - SVG Support - - */
 		
-		/*
-if (!Modernizr.svg) {
-			$("#logo").attr("src", "");
+		if (!Modernizr.svg) {
+			$("#logo img").attr("src", "img/wedding-logo.png");
+			$("#macys").attr("src", "img/logo-macys.png");
+			$("#williams-sonoma").attr("src", "img/logo-williams-sonoma.png");
+			$("#pottery-barn").attr("src", "img/logo-p-barn.png");
 		}
-*/
 		
 });
 

@@ -16,6 +16,7 @@
 	overflow: hidden;
 	z-index: 100;	
 	position: relative;
+	background-color: #fff;
 	
 	> div {
 		max-width: none;
@@ -43,6 +44,11 @@
 		margin: 0 auto 1.4em;
 		padding: 0;
 		position: relative;
+		
+		img {
+			width: 100%;
+			height: auto;
+		}
 		
 	}
 	#logo:before {
@@ -252,46 +258,47 @@
 		
 	}
 }
-
 #feat-vid {
+	width: 100%;
+	height: 100%;
 	margin: 0;
+	padding: 0;
 	position: absolute;
 	top: 0;
 	left: 50%;
-	transform: translate(-50%, 0);
-	-webkit-transform: translate(-50%, 0);
 	transition: all 0.3s ease-in-out;
+	-ms-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
 	z-index: 0;
 	overflow: hidden;
 	background: transparent;
-	
 	
 	@media (min-aspect-ratio: 2/1) {
 		width: 100%;
 		height: auto;
 	}
 	@media (max-aspect-ratio: 2/1) {
-		width: auto;
+		width: 200%;
 		height: 100%;
 	}
 }
 .mobile #feat-vid {
 	display: none;
 }
-/* @media screen and (max-width: 720px) { */
-	#feat-img {
-		width: 100%;
-		height: 100%;
-		.absolute-center;
-		background: transparent url('../img/bg-movie_katie-pat.jpg') no-repeat center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		.block;
-		z-index: 0;
-	}
-/* } */
+#feat-img {
+    width: 100%;
+    height: 100%;
+    .absolute-center;
+    background: #fff url('../img/bg-movie_katie-pat.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    .block;
+    z-index: 0;
+}
 
 /* - - // SECONDARY CONTENT // - - */
 

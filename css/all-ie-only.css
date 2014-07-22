@@ -1,0 +1,15 @@
+/* IE Stylesheet */
+
+.mobile #feat-vid {
+	display: block;
+}
+#hero .copy {
+	padding-top: 8em;
+}
+#hero .copy #logo {
+	margin-bottom: 0;
+}
+#hero #feat-img {
+	left: 0;
+	top: 0;
+}

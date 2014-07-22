@@ -1,5 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="en"> <!--<![endif]-->
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
 
@@ -22,6 +25,15 @@
   <!-- <script src="js/picturefill.js"></script> -->
   <link rel="apple-touch-icon" href="rpc-ios-icon.png">
   <link href="css/styles.css" rel="stylesheet" />
+  <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+  <![endif]-->
+  <!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+  <![endif]-->
+  <!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+  <![endif]-->
   
 </head>
 <body class="home">
@@ -37,8 +49,8 @@
 	    	<a href="#secondary" class="more scroll">More</a>
 	    </nav>
 	    <div class="copy">
-	    	<div id="logo"><a href="#">
-	    		<img src="img/wedding-logo.svg" alt="Katie & Pat's Tipi" /></a>
+	    	<div id="logo">
+	    		<img src="img/wedding-logo.svg" alt="Katie & Pat's Tipi" />
 	    	</div>
 	    	<h1><span>Katie</span><span>+</span><span>Pat</span></h1>
 	    	<h2>The Marich Wedding</h2>
@@ -92,32 +104,13 @@
   		<div id="registry">
 			<h2>Registry</h2>
 			<ul>
-				<li><a href="http://www.amazingregistry.com/wedding-registry/katie-norris/pat-marich/registry.ashx?a=80281378"><img src="img/logo-macys.svg" alt="The Marich Registry at Macy's" /></a></li>
-				<li><a href="http://www.williams-sonoma.com/registry/bwkq79hvhz/registry-list.html"><img src="img/logo-williams-sonoma.svg" alt="The Marich Registry at Williams Sonoma" /></a></li>
-				<li><a href="http://www.potterybarn.com/registry/3508745/registry-list.html"><img src="img/logo-p-barn.svg" alt="The Marich Registry at Pottery Barn" /></a></li>
+				<li><a href="http://www.amazingregistry.com/wedding-registry/katie-norris/pat-marich/registry.ashx?a=80281378"><img src="img/logo-macys.svg" alt="The Marich Registry at Macy's" id="macys" /></a></li>
+				<li><a href="http://www.williams-sonoma.com/registry/bwkq79hvhz/registry-list.html"><img src="img/logo-williams-sonoma.svg" alt="The Marich Registry at Williams Sonoma" id="williams-sonoma"/></a></li>
+				<li><a href="http://www.potterybarn.com/registry/3508745/registry-list.html"><img src="img/logo-p-barn.svg" alt="The Marich Registry at Pottery Barn" id="pottery-barn"/></a></li>
 			</ul>
 		</div>
-	</div>
-	
-   
-  	
-  	<!--
-  			<!--///// THIS CODE DEMONSTRATES USING CONDITIONAL IMAGES /////
-<span class="phone-ui" data-picture data-alt="RealPlayer Cloud on Your Mobile Device">
-				<span data-src="img/_small/mobile-img_small.jpg" data-media="(min-width: 480px)"></span>
-				<span data-src="img/_medium/mobile-img_med.jpg" data-media="(min-width: 520px)"></span>
-				<noscript>
-					<img src="img/_small/mobile-img_small.jpg" alt="RealPlayer Cloud on Your Mobile Device">
-				</noscript>
-			</span>
--->
-			
+	</div>	
   </section><!-- END section main -->
-  
-  <!--
-<section class="secondary clearfix">
-  </section>
---><!-- END section.secondary -->
  
   <footer id="footer" class="clearfix">
   	<h2>Thank You!</h2>
