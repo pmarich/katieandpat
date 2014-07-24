@@ -60,9 +60,7 @@
   		<div id="feat-img"></div>
 	</div>
   
-
 <section role="main" class="clearfix">
-
 	
 	</div><!-- END #style-area1 -->
 	
@@ -77,7 +75,7 @@
   	    			<small>Capitol Hill</small>
 					<p>728 21st Ave E <span>Seattle, WA 98112</span></p>
 				</aside>
-				<div class="deets"><p>The wedding ceremony will be held in the Holy Names Chapel where it will be officiated by <a href="http://www.jesuit.org/blog/index.php/tag/jesuit-father-patrick-twohy/">Father Patrick Twohy</a>, a close family friend. Street parking is available in the surrounding neighborhood.</p></div>
+				<div class="deets"><p>The wedding ceremony will be held in the Holy Names Chapel where it will be officiated by <a href="http://www.jesuit.org/blog/index.php/tag/jesuit-father-patrick-twohy/">Father Patrick Twohy</a>, cousin of the groom. Street parking is available in the surrounding neighborhood.</p></div>
 				<ul class="links">
 				    <li><a href="http://www.holynames-sea.org/">Website</a></li>
 				    <li><a href="https://www.google.com/maps/place/Holy+Names+Academy/@47.6264908,-122.3066348,17z/data=!4m2!3m1!1s0x0:0xdaecf24fc1c05053">Google map</a></li>

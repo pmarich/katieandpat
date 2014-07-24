@@ -66,8 +66,8 @@
 			<li>
 				<div class="large"><a href="img/gallery/engage-pic-feathers-stacy.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/engage-pic-feathers-stacy_thumb.jpg" alt="" class="inline-block"/></a></div>
 				<div class="medium"><a href="img/gallery/bragg-family.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/bragg-family_thumb.jpg" alt="" class="inline-block"/></a></div>
-				<div class="small"><a href="img/gallery/30th-bday.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/30th-bday_thumb.jpg" alt="" class="inline-block"/></a></div>
-				<div class="small"><a href="img/gallery/elf-time.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/elf-time_thumb.jpg" alt="" class="inline-block"/></a></div>
+				<div class="small"><a href="img/gallery/kt-sounders.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/kt-sounders_thumb.jpg" alt="" class="inline-block"/></a></div>
+				<div class="small"><a href="img/gallery/lil-bride.jpg" target="_self" class="inline-block litebox"><img src="img/gallery/lil-bride_thumb.jpg" alt="" class="inline-block"/></a></div>
 			</li>
 			<!--
 <li>
