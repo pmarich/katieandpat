@@ -1,52 +1,13 @@
-rcom-style-template
+Wedding Website: first run
 ===================
+2014
 
-This is the working framework for real.com pages.
+This is the code from the failed first run of my wedding website.
 
+Most of the code is pretty functional, there are some bugs. Social pressure, more than the limits of browsers and my abilities, forced the doors to close on this one. There is another repo, wedding-website, that has the (very different and less ambitious) finished product.
 
-FILES INCLUDED:
+The dream of HTML5 video backgrounds will have to wait...
 
-// STYLE FILES: CSS DIRECTORY //
-————————
-styles.css (compressed aggregate file)
+Thanks,
 
-LESS FILES
-—————
-styles
-mixins > styles
-main > styles (*** Where edits should be made in this framework ***)
-
-OPTIONAL STYLESHEETS
-* @import through > main.less
-
-footer-main
-forms
-header-main
-header-sub
-video-overlay
-workhorse-mods
-
-
-// INTERACTIVE FILES: JS DIRECTORY //
-
-matchmedia.js 		(?)
-picutrefill.js 		- conditionally serves images
-script-ck.js 		- condensed script file
-script.js 		- editable script file
-
-LIBS
-———
-head.min.js		- loads js files simultaneously
-jquery.jcarousellite.js	- for content carousels
-modernizr.custom.min.js	- Custom modernizr js for graceful degradation
-
-Missing: form validator js, form masking js
-
-
-// FONTS //
-(also in /pmarich.com/real/2014/_assets/fonts/)
-
-din-med
-din-pro
-real-icons
-
+Pat
